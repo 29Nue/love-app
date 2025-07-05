@@ -1,11 +1,5 @@
 function chonCo() {
-    document.body.style.backgroundColor = '#ffe0e9'
-    document.getElementById('heartBg').style.display = 'block'
-  
-    document.getElementById('result').innerHTML = `
-      <p>Em cũng yêu anh nhiều lắm luôn 💖</p>
-      <img src="https://media.giphy.com/media/3oz8xKaR836UJOYeOc/giphy.gif" width="200"/>
-    `
+  window.location.href = "love.html"
   }
   
   let clickCount = 0 // Đếm số lần click vào “Không”
