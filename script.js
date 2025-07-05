@@ -1,5 +1,5 @@
 function chonCo() {
-  window.location.href = "/love.html"
+  window.location.href = "/yeu.html"
 }
 
   let clickCount = 0 // Đếm số lần click vào “Không”
