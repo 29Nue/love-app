@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    background-color: #fff0f5;
+  }
+  
+  .container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin: 0 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 12px;
+    background-color: pink;
+    cursor: pointer;
+  }
+  
+  #result {
+    margin-top: 40px;
+    font-size: 1.5em;
+  }
+  
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    75% { transform: translateX(10px); }
+  }
+  
+  .shake {
+    animation: shake 0.4s;
+  }
+  .heart-bg {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: repeating-linear-gradient(45deg, pink, #ffb6c1 10px, #ffe0e9 20px);
+    animation: pulse 1s infinite alternate;
+    z-index: -1;
+    clip-path: path('M150 0 C75 0, 75 100, 150 150 C225 100, 225 0, 150 0 Z');
+    opacity: 0.4;
+  }
+  
+  @keyframes pulse {
+    from { transform: scale(1); }
+    to { transform: scale(1.02); }
+  }
+  
+  button {
+    position: relative;
+    margin: 0 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 12px;
+    background-color: pink;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
